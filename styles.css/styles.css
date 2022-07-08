@@ -1,0 +1,50 @@
+body {
+    color: #212121;
+    margin: 0;
+}
+
+:root {
+    --txt-clr: #fff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 69px;
+    height: 56px;
+}
+
+.section-hero {
+    /* color: var(--txt-clr);
+    background-image: url("../image/hero/Slider\ img\ 3-2.jpg");
+    margin: 0 auto;
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}

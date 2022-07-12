@@ -11,25 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css/styles.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <a href="">
+    <header class="header">
+        <div class="container header-container">
+            <a class="logo" href="">
                 <img src="./image/hero/Logo.png" alt="Логотип BarberShop" width="69" height="56" />
             </a>
-            <nav>
-                <ul>
-                    <li><a href="">О нас</a></li>
-                    <li><a href="">Услуги и цены</a></li>
-                    <li><a href="">Мастера</a></li>
-                    <li><a href="">Контакты</a></li>
+            <nav class="nav">
+                <ul class="header-nav-list">
+                    <li class="nav-list"><a class="nav-link" href="">О нас</a></li>
+                    <li class="nav-list"><a class="nav-link" href="">Услуги и цены</a></li>
+                    <li class="nav-list"><a class="nav-link" href="">Мастера</a></li>
+                    <li class="nav-list"><a class="nav-link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <a href="tel:+380441111111">+38 044 111 11 11</a>
-            <button type="button">онлайн-запись</button>
+            <div class="contact-link">
+                <a class="contacts" href="tel:+380441111111">+38 044 111 11 11</a>
+                <button class="button-header" type="button">онлайн-запись</button>
+            </div>
         </div>
     </header>
 

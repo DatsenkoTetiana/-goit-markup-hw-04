@@ -37,6 +37,19 @@ ul {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .section {
     padding-bottom: 130px;
     padding-top: 130px;
@@ -372,6 +385,10 @@ ul {
 
 
 /* team */
+.title.team {
+    margin-bottom: 44px;
+}
+
 .section-team {
     background-color: #F7F7F7;
 }
@@ -410,4 +427,74 @@ ul {
 .social-icon {
     width: 20px;
     height: 20px;
+}
+
+/* portfolio */
+.uppertitle.portfolio {
+    margin-bottom: 44px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* form */
+.section-contacts {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #191C26;
+    background-image: url("../image/contacts/contacts.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container-contacts {
+    display: flex;
+}
+
+.form {
+    width: 625px;
+
+}
+
+.label {
+    margin-right: 30px;
+    margin-bottom: 8px;
+
+}
+
+.form {}
+
+.input,
+.textarea {
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+
+
+.title.contact {
+    margin-bottom: 44px;
+}
+
+.address {
+    margin-bottom: 20px;
+    color: #9DA4BD;
+    font-style: normal;
+}
+
+.footer-contacts {
+    text-decoration: none;
+    color: #9DA4BD;
+
+}
+
+.phone,
+.mail {
+    width: 24px;
+    height: 24px;
 }

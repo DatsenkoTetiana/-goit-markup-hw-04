@@ -158,7 +158,7 @@
         <section class="section section-team">
             <div class="container container-team">
                 <p class="uppertitle light">для настоящих ценителей атмосферы</p>
-                <h2 class="title light">Наши мастера</h2>
+                <h2 class="title team">Наши мастера</h2>
                 <ul class="team-list">
                     <li class="team-item"><img src="./image/team/team1.jpg" alt="" width="370" height="346">
                         <div class="team-wrapper">
@@ -241,21 +241,65 @@
         </section>
 
         <section class="section">
-            <p class="uppertitle light">На латинском языке “барба” означает “борода”</p>
-            <ul>
-                <li><img src="./image/process/process1.jpg" alt="" width="270" height="360">
-                </li>
-                <li><img src="./image/process/process2.jpg" alt="" width="270" height="360">
-                </li>
-                <li><img src="./image/process/process3.jpg" alt="" width="270" height="360">
-                </li>
-                <li><img src="./image/process/process4.jpg" alt="" width="270" height="360">
-                </li>
-            </ul>
+            <div class="container">
+                <p class="uppertitle portfolio">На латинском языке “барба” означает “борода”</p>
+                <h2 class="visually-hidden ">Портфолио работ</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item"><img src="./image/process/process1.jpg" alt="" width="270" height="360">
+                    </li>
+                    <li class="portfolio-item"><img src="./image/process/process2.jpg" alt="" width="270" height="360">
+                    </li>
+                    <li class="portfolio-item"><img src="./image/process/process3.jpg" alt="" width="270" height="360">
+                    </li>
+                    <li class="portfolio-item"><img src="./image/process/process4.jpg" alt="" width="270" height="360">
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section>
-            <h2>Онлайн-запись</h2>
+
+        <section class="section-contacts">
+            <div class="container-contacts">
+                <div class="form-group">
+                    <h2 class="title">Онлайн-запись</h2>
+                    <form class="form" action="" method="post" name="" autocomplete="on" novalidate>
+                        <label class="label" for="">
+                            <input class="input" type="text" name="username" placeholder="Имя*" id="" autofocus>
+                        </label>
+                        <label class="label" for="">
+                            <input class="input" type="tel" name="phone_number" placeholder="Телефон*" id="" autofocus>
+                        </label>
+                        сообщение
+                        <label class="label" for="">
+                            <textarea class="textarea" name="message" id="" rows="10"></textarea>
+                        </label>
+                        <button type="submit">отправить</button>
+                </div>
+                </form>
+
+
+                <div class="contacts-group">
+                    <h2 class="title contact">Контакты</h2>
+                    <address class="address">
+                        <ul>
+                            <li><a href="">ул. Васильковая, 7А
+                                    Киев, 08132</a></li>
+                            <li><a class="footer-contacts" href="tel:+380441111111"><svg class="phone">
+                                        <use href="./images/icons.svg#"></use>
+                                    </svg>+38 044 111 11 11</a></li>
+                            <li><a class="footer-contacts" href="mailto:barbershop@email.com"><svg class="mail">
+                                        <use href="./images/icons.svg#"></use>
+                                    </svg>barbershop@email.com</a></li>
+                        </ul>
+                    </address>
+                    <p>"время работы"</p>
+                    <p>"Ежедневно с"
+                        <time> 9:00</time>
+                        "до"
+                        <time>22:00</time>
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 </body>

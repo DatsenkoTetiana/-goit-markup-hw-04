@@ -66,7 +66,10 @@ ul {
 }
 
 .header {
-    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -156,12 +159,28 @@ ul {
 
 /* hero */
 .section-hero {
+    padding-top: 272px;
+    padding-bottom: 206px;
     max-width: 1280px;
     margin: 0 auto;
-    height: 680px;
-    background-image: url("../image/hero/hero.jpg"), linear-gradient(to right, rgb(255, 255, 255) 155px, rgb(25, 28, 38, 0.2) 155px);
+    background-image: url("../image/hero/hero.jpg");
     background-repeat: no-repeat;
     background-position: top right, center;
+}
+
+.container-hero {
+    display: flex;
+}
+
+.hero-left-side {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 100px;
+}
+
+.hero-right-side {
+    flex-grow: 1;
+    padding-left: 100px;
 }
 
 .hero-uppertitle {
@@ -174,6 +193,25 @@ ul {
     color: rgba(157, 164, 189, 0.6);
 }
 
+.uppertitle {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.uppertitle::before {
+    content: "";
+    display: block;
+    background-color: rgba(157, 164, 189, 0.6);
+    width: 60px;
+    height: 1px;
+}
+
+.light:before {
+    background-color: #303030;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 72px;
@@ -181,6 +219,8 @@ ul {
     letter-spacing: 0.05em;
 
     color: #FFFFFF;
+
+    margin-bottom: 20px;
 }
 
 .hero-desc {
@@ -189,7 +229,8 @@ ul {
     line-height: calc(30 / 18);
     letter-spacing: 0.02em;
 
-    color: #9DA4BD
+    color: #9DA4BD;
+    width: 500px;
 }
 
 .button-hero {

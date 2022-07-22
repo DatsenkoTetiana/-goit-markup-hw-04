@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
-    <header class="header">
+<body data-page>
+    <header class="header no-transparency">
         <div class="container header-container">
             <a class="logo" href="">
                 <img src="./image/hero/Logo.png" alt="Логотип BarberShop" width="69" height="56" />
@@ -41,12 +41,12 @@
         <section class="section section-hero">
             <div class="container container-hero">
                 <div class="hero-left-side">
-                    <ul>
-                        <li>
-                            <a target="_blank" rel="noopener noreferrer" href="">Instagram</a>
+                    <ul class="hero-list">
+                        <li class="hero-item">
+                            <a class="hero-link" target="_blank" rel="noopener noreferrer" href="">Instagram</a>
                         </li>
-                        <li>
-                            <a target="_blank" rel="noopener noreferrer" href="">Youtube</a>
+                        <li class="hero-item">
+                            <a class="hero-link" target="_blank" rel="noopener noreferrer" href="">Youtube</a>
                         </li>
                     </ul>
                 </div>
@@ -57,10 +57,10 @@
                         Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
                         со вкусом.
                     </p>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div class="pagination">
+                        <div class="pagination-item active"></div>
+                        <div class="pagination-item"></div>
+                        <div class="pagination-item"></div>
                     </div>
                     <ul class="slider-controls list">
                         <li class="slider-items"><button class="button-hero disabled" type="button">Назад</button></li>
@@ -316,6 +316,8 @@
             </div>
         </section>
     </main>
+    <script src="./js/modal.js"></script>
+    <script src="./js/header-scroll.js"></script>
 </body>
 
 </html>

@@ -77,8 +77,6 @@ ul {
     width: 100%;
     z-index: 100;
     align-items: center;
-    margin: 0;
-    padding: 0;
     background-color: #191c26;
     transition: background-color 300ms ease-in-out,
         backdrop-filter 300ms ease-in-out;
@@ -198,12 +196,7 @@ ul {
 
 }
 
-.hero-left-side {
-    display: flex;
-    align-items: flex-end;
-    flex-basis: 100px;
-    max-width: 100px;
-}
+
 
 .hero-list {
     display: flex;
@@ -229,6 +222,13 @@ ul {
     letter-spacing: 0.2em;
     text-decoration: none;
     color: #303030;
+}
+
+.hero-left-side {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 100px;
+    max-width: 100px;
 }
 
 .hero-link:hover,
